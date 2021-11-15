@@ -1,0 +1,72 @@
+
+.page_bgOne {
+    background-image: url(../public/assets/img/rocket-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0 100px;
+    position: relative;
+}
+
+.page_banner {
+    position: relative;
+    z-index: 1;
+}
+
+.page-title {}
+
+.page_title h1 {
+    color: var(--white-color);
+    margin-bottom: 10px;
+}
+
+.page_title p {
+    color: var(--primary3-color);
+    font-size: 20px;
+    padding: 0px 0 0px;
+}
+
+.page_title .btn-md {
+    background-color: var(--white-color);
+    color: var(--black-color);
+    position: relative;
+    align-self: center;
+    padding: 14px 40px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.page_title .btn_md::after {
+    content: "\f101";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    padding-left: 20px;
+}
+
+.page_title ul {
+    margin-top: 15px;
+}
+
+.page_title ul li {
+    display: inline-block;
+}
+
+.page_title ul li a {
+    font-size: 15px;
+    color: var(--white-color);
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.page_title ul li a::after {
+    content: "\f054";
+    font-family: "Font Awesome 5 free";
+    font-weight: 900;
+    font-size: 12px;
+    margin: 0 11px;
+}
+
+.page_title ul li:last-child a::after {
+    display: none;
+}
